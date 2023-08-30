@@ -16,3 +16,4 @@ export const deleteTask = async (taskId: string): Promise<void> => {
   export const toggleTaskCompletion = async (taskId: string): Promise<void> => {
     await taskService.toggleTaskCompletion(taskId);
 };
+
