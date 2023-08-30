@@ -12,6 +12,7 @@
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    color: black;
   
   &.completed {
     background-color: #f0f0f0;
@@ -39,6 +40,7 @@
 .taskItem input[type="checkbox"] {
     transform: scale(1.5);
     margin-right: 10px;
+
   }
 
   .taskListContainer {
